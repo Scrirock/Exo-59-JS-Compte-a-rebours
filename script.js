@@ -1,10 +1,13 @@
-let rebour = setInterval(compte, 1000);
-let nbr = prompt("entrez un nombre");
+let nbr = +prompt("Entrez un nombre");
+let valeur =  document.getElementById("compte");
 
-function compte() {
-    document.getElementById("compte").innerHTML = nbr;
-    nbr--;
-    if (nbr <0) {
-        clearInterval(1);
+if (nbr === parseInt(nbr)) {
+    while (nbr >= 0) {
+        valeur.innerHTML += nbr + "<br>";
+        nbr--;
     }
+}
+
+else {
+    alert("Met un nombre!")
 }

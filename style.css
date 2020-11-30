@@ -12,15 +12,3 @@ body {
     width: 100%;
     font-size: 2rem;
 }
-
-div{
-    width: 5rem;
-    height: 5rem;
-    background-color: antiquewhite;
-    margin: 15rem auto;
-    border: 5px solid #c48668;
-    border-radius: 26px;
-    text-align: center;
-    padding-top: 7px;
-    color: #c48668;
-}
